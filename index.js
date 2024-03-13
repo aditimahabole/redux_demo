@@ -48,3 +48,10 @@ store.dispatch(buyCake());
 store.dispatch(buyCake());
 
 unsubscribe()
+
+// * OUTPUT :
+// Initial State:  { numOfCakes: 10 }
+// Updated State :  { numOfCakes: 9 }
+// Updated State :  { numOfCakes: 8 }
+// Updated State :  { numOfCakes: 7 }
+// Updated State :  { numOfCakes: 6 }
